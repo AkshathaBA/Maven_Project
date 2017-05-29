@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="44943" started-at="2017-05-29T04:56:55Z" finished-at="2017-05-29T04:57:40Z">
+  <suite name="Suite" duration-ms="56413" started-at="2017-05-29T05:12:25Z" finished-at="2017-05-29T05:13:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="44943" started-at="2017-05-29T04:56:55Z" finished-at="2017-05-29T04:57:40Z">
+    <test name="Test" duration-ms="56413" started-at="2017-05-29T05:12:25Z" finished-at="2017-05-29T05:13:21Z">
       <class name="com.application.tests.TestClass">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="launch" is-config="true" duration-ms="12015" started-at="2017-05-29T10:26:55Z" finished-at="2017-05-29T10:27:07Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="launch" is-config="true" duration-ms="27119" started-at="2017-05-29T10:42:25Z" finished-at="2017-05-29T10:42:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="login" is-config="true" duration-ms="3" started-at="2017-05-29T10:27:07Z" finished-at="2017-05-29T10:27:07Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="login" is-config="true" duration-ms="0" started-at="2017-05-29T10:42:52Z" finished-at="2017-05-29T10:42:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="testHome()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="testHome" duration-ms="32599" started-at="2017-05-29T10:27:07Z" finished-at="2017-05-29T10:27:39Z">
+        <test-method status="PASS" signature="testHome()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="testHome" duration-ms="28993" started-at="2017-05-29T10:42:52Z" finished-at="2017-05-29T10:43:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHome -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="quit" is-config="true" duration-ms="307" started-at="2017-05-29T10:27:39Z" finished-at="2017-05-29T10:27:40Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="quit" is-config="true" duration-ms="287" started-at="2017-05-29T10:43:21Z" finished-at="2017-05-29T10:43:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-29T10:27:39Z" finished-at="2017-05-29T10:27:39Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.application.tests.TestClass@2c6a3f77]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-29T10:43:21Z" finished-at="2017-05-29T10:43:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
