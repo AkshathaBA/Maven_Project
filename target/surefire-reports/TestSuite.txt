@@ -1,24 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 19.356 sec <<< FAILURE! - in TestSuite
-testHome(com.application.tests.TestClass)  Time elapsed: 8.295 sec  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-Failed to decode response from marionette
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'sandeep', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-62-generic', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.QH8fshkP8XqX, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=4.4.0-62-generic, moz:processID=17656.0, browserName=firefox, javascriptEnabled=true, platformName=linux}]
-Session ID: 9fe61d46-6355-43cf-92c8-aaf0854fd7bc
-*** Element info: {Using=xpath, value=//div[@class='cartContainer col-xs-11 reset-padding']}
-	at com.application.tests.TestClass.testHome(TestClass.java:19)
-
-quit(com.application.tests.TestClass)  Time elapsed: 8.366 sec  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-Tried to run command without establishing a connection
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'sandeep', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-62-generic', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.QH8fshkP8XqX, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=4.4.0-62-generic, moz:processID=17656.0, browserName=firefox, javascriptEnabled=true, platformName=linux}]
-Session ID: 9fe61d46-6355-43cf-92c8-aaf0854fd7bc
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.219 sec - in TestSuite
