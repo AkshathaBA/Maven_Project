@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="56.69" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.715" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -23,7 +23,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/prasannakumar/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7916175448634605045.tmp"/>
+    <property name="classworlds.conf" value="/home/prasannakumar/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2000102413182830502.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -59,5 +59,82 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testHome" classname="com.application.tests.TestClass" time="28.993"/>
+  <testcase name="testHome" classname="com.application.tests.TestClass" time="9.116">
+    <failure message="Failed to decode response from marionette&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;sandeep&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-62-generic&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=/tmp/rust_mozprofile.oKmhDxmPFx5H, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=4.4.0-62-generic, moz:processID=10025.0, browserName=firefox, javascriptEnabled=true, platformName=linux}]&#10;Session ID: 3f9de0f9-97da-49d2-a1fb-5356c12666f1&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;cartContainer col-xs-11 reset-padding&apos;]}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'sandeep', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-62-generic', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.oKmhDxmPFx5H, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=4.4.0-62-generic, moz:processID=10025.0, browserName=firefox, javascriptEnabled=true, platformName=linux}]
+Session ID: 3f9de0f9-97da-49d2-a1fb-5356c12666f1
+*** Element info: {Using=xpath, value=//div[@class='cartContainer col-xs-11 reset-padding']}
+	at com.application.tests.TestClass.testHome(TestClass.java:19)
+</failure>
+    <system-err><![CDATA[1496035472803	geckodriver	INFO	Listening on 127.0.0.1:18331
+1496035473095	geckodriver::marionette	INFO	Starting browser /opt/firefox53/firefox with args ["-marionette"]
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1496035474881	Marionette	INFO	Listening on port 45554
+
+(/opt/firefox53/firefox:10089): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/opt/firefox53/firefox:10089): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/opt/firefox53/firefox:10089): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/opt/firefox53/firefox:10089): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+May 29, 2017 10:54:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 23: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 23: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 23: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://i1.sdlcdn.com/js/juspayintegration1495786181398/snapdeal/loginIframe.min.js, line 62: unreachable code after return statement
+JavaScript warning: https://i1.sdlcdn.com/js/juspayintegration1495786181398/snapdeal/loginIframe.min.js, line 66: unreachable code after return statement
+JavaScript warning: https://i1.sdlcdn.com/js/juspayintegration1495786181398/snapdeal/loginIframe.min.js, line 62: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 23: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 20: unreachable code after return statement
+JavaScript warning: https://i2.sdlcdn.com/js/juspayintegration1495786181398/snap/base.jquery111.min.js, line 23: unreachable code after return statement
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10025): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+]]></system-err>
+  </testcase>
+  <testcase name="quit" classname="com.application.tests.TestClass" time="9.186">
+    <failure message="Tried to run command without establishing a connection&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;sandeep&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-62-generic&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=/tmp/rust_mozprofile.oKmhDxmPFx5H, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=4.4.0-62-generic, moz:processID=10025.0, browserName=firefox, javascriptEnabled=true, platformName=linux}]&#10;Session ID: 3f9de0f9-97da-49d2-a1fb-5356c12666f1" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'sandeep', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-62-generic', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.oKmhDxmPFx5H, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=4.4.0-62-generic, moz:processID=10025.0, browserName=firefox, javascriptEnabled=true, platformName=linux}]
+Session ID: 3f9de0f9-97da-49d2-a1fb-5356c12666f1
+</failure>
+  </testcase>
 </testsuite>
